@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EL MIRADOR/HOTEL Y RESTAURANTE</title>
+  <!-- CDN de los íconos -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CDN Materialize CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <!-- AQUI EL CONTENIDO DEL SITIO -->
+  <div class="navbar-fixed">
+    <nav class="green">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo white-text">EL MIRADOR</a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="black-text"><a href="#">INICIO</a></li>
+            <li><a href="#">QUIENES SOMOS</a></li>
+            <li><a href="#">HOTEL</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav black white-text" id="mobile-menu">
+    <li><a href="#">INICIO</a></li>
+            <li><a href="#">QUIENES SOMOS</a></li>
+            <li><a href="#">HOTEL</a></li>
+            <li><a href="#">CONTACTO</a></li>
+  </ul>
+
+<div class="parallax-container">
+    <br><br>
+    <h3 class="header center text-lighten-2  white-text">Hotel y Restaurante</h3>
+    <div class="row center">
+      <h5 class="header col s12 light white-text">Conoce nuestros servicios</h5>
+    </div>
+    <div class="row center">
+      <a href="#" id="download-button" class="btn-large waves-effect waves-light blue lighten-1">Mas info</a>
+    </div>
+    <br><br>
+        <div class="parallax color"><img src="img/1.jpeg">
+</div>
+</div>
+
+<main class="container principal">
+    <div class="row center">
+      <div class="col s4">
+        <i class="material-icons large green-text">restaurant</i>
+        <h4>Restaurante</h4>
+        <p>Te ofrecemos todo tipo de comidas a la carte tanto desayuno, almuerzo y cena.</p>
+      </div>
+      <div class="col s4">
+        <i class="material-icons large indigo-text">group</i>
+        <h4>Hotel</h4>
+        <p>El mejor hospedaje, con todos los servicios y el confort que ud se merece.</p>
+      </div>
+      <div class="col s4">
+        <i class="material-icons large blue-text">ring_volume</i>
+        <h4>Reservaciones</h4>
+        <p>Reserva un espacio para disfrutar de una vista agradable a la par de tus familiares.</p>
+      </div>
+    </div>
+</main>
+
+<div class="parallax-container transf"><img src="img/2.jpeg"></div>
+
+<div class="container principal">
+    <h1 class="center">Contáctanos</h1>
+    <div class="divider"></div>
+    <form>
+      <div class="input-field col s12 l6">
+        <input type="text" id="primer_nombre" class="validate">
+        <label for="primer_nombre">Primer Nombre</label>
+      </div>
+      <div class="input-field col s12 l6">
+        <input type="text" id="segundo_nombre" class="validate">
+        <label for="segundo_nombre">Segundo Nombre</label>
+      </div>
+      <div class="input-field col s12">
+        <input type="email" id="email" class="validate">
+        <label for="email" data-error="Correo Inválido" data-success="Correcto">Email</label>
+      </div>
+      <div class="input-field col s12">
+        <textarea id="mensaje" class="materialize-textarea"></textarea>
+        <label for="mensaje">Mensaje</label>
+      </div>
+      <button class="btn waves-effect waves-light blue center" type="submit" name="action">Enviar
+        <i class="large material-icons right">send</i>
+      </button>
+    </form>
+</div>
+
+<div class="row principal">
+    <h2 class="center">Conoce más de nosotros</h2>
+    <div class="divider"></div>
+  <div class="col s12 m4">
+    <div class="card">
+      <div class="card-image">
+        <img src="img/1.jpeg">
+        <span class="card-title">Nuestros Platillos</span>
+      </div>
+      <div class="card-content">
+        <p>Todo tipo de platos a la carta</p>
+        </div>
+        <div class="card-action">
+          <a href="#">INFO</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/2.jpeg">
+            <span class="card-title">Pasa un momento especial</span>
+          </div>
+          <div class="card-content">
+            <p>Reserva con nosotros y conoce Juigalpa</p>
+            </div>
+            <div class="card-action">
+              <a href="#">INFO</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/3.jpeg">
+                <span class="card-title">Catalogo variado</span>
+              </div>
+              <div class="card-content">
+                <p>Con un abanico amplio de servicios</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">INFO</a>
+                </div>
+              </div>
+            </div>
+  </div>
+
+  <div class="row">
+      <h3 class="center">Ubicación</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9926132637465!2d-85.36922738597583!3d12.11265769142342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7363efc4d2ac8d%3A0x914cf9e2e6f76027!2sHotel%20y%20Resturante%20El%20Mirador!5e0!3m2!1ses!2sni!4v1620334780870!5m2!1ses!2sni" style="border:0; width:100%;height:120%;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+
+<footer class="page-footer green valign-wrapper center">
+  <div class="container">
+    <p class="flow-text ">&copy; 2021 Copyright El Mirador</p>
+    <p class="white-text">Tel. 0000-0000</p>
+  </div>
+</footer>
+
+<!-- 
+  $('.parallax').parallax();
+
+  En el css para cambiar la altura
+  .parallax-container {
+      height: "la altura aquí";
+    }
+-->
+
+  <!-- 
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    }); 
+  -->
+  
+  <!-- $(".button-collapse").sideNav(); -->
+  <!--  CDN jQuery -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <!-- CDN Materialize JS  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
+  <script>
+    $("document").ready(function () { 
+        $(".button-collapse").sideNav();
+        $('.parallax').parallax();
+    });
+  </script>
+</body>
+
+</html>
